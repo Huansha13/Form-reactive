@@ -1,1 +1,11 @@
-<p>errors works!</p>
+<!--MANIPULACION DE ELEMENTOS DOM-HTML-->
+
+<div class="wrapper">
+  <h1><b>Angular</b> Manipulación de DOM con <i>Render 2</i><a href="#" (click)="change()">Aplicar</a></h1>
+  <div class="block">
+    <span #asTitle id="title"> {{data.text}} </span>
+  </div>
+  <div class="block">
+    <img #asImg [src]="data.url" class="img" alt="img">
+  </div>
+</div>
